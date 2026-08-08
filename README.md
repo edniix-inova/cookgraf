@@ -31,15 +31,15 @@ Collects, consolidates, and exports what still needs to be bought: merges missin
 User Input (available ingredients, equipment)
                     │
                     ▼
-┌───────────────────────────────────────────────────┐
-│   CookGraf — independent services, API-driven      │
-│                                                     │
-│   Property Graph  ───────▶  Knowledge Graph        │
-│   (recipes & matching)      (find substitutes)     │
-│          │                                         │
-│          └──────────────────▶  Shopping List       │
-│                                 (missing ingredients)│
-└───────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────┐
+│   CookGraf — independent services, API-driven          |
+│                                                        | 
+│   Property Graph ───────────>  Knowledge Graph|        |
+│   (recipes & matching)        (find substitutes)       | 
+│          |                                             | 
+│          └──────────────────>  Shopping List           | 
+│                                 (missing ingredients)  |  
+└────────────────────────────────────────────────────────┘
                     │
                     ▼
         Output: Recipe, Alternative, Shopping List
